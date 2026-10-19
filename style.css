@@ -1,0 +1,56 @@
+* {
+    font-family: "Google Sans Flex";
+    font-size: 18px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    color: #cdd6f4;
+}
+
+#workspaces,
+#clock,
+#cpu,
+#memory,
+
+#battery {
+	background-color: #313244;
+	margin: 0px 0;
+	font-size: 20px;
+	font-stretch: condensed;
+}
+
+#network,
+#pulseaudio,
+#tray {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    border-radius: 0;
+    background-color: #313244;
+}
+
+#workspaces button {
+    padding: 0px 0;
+    margin: 0px 0;
+    color: #cdd5f4;
+    background: transparent;
+    border-radius: 24;
+    font-size: 19px;
+}
+
+#workspaces button.active {
+    background-color: #89b4fa;
+    color: #1e1e2e;
+}
+
+
+#clock {
+    font-family: "JetBrains Mono", sans-serif;
+    border-radius: 9;
+    margin: 0px 0;
+    padding: 4px 4;
+    font-size: 17px;
+}
